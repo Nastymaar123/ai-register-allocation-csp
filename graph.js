@@ -1,3 +1,15 @@
+/*
+Maar Drew-Joseph
+CPSC 447, Fall 2026
+Professor Schwesinger
+Project 4 - Constraint Satisfaction
+Created: 10/23/2026
+Due Date: 11/08/2026
+Major: Information Technology
+File: graph.js
+Purpose: Parses a graph file containing physical registers, virtual registers, and interferences, and returns the parsed data structures.
+*/
+
 "use strict";
 
 const fs = require('fs');

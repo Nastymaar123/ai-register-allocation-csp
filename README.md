@@ -4,6 +4,27 @@
 **Course:** CPSC 447
 **Language:** JavaScript (Node.js)
 
+## Project Overview
+
+This project implements a Constraint Satisfaction Problem (CSP)
+solver for register allocation using JavaScript and Node.js.
+
+The program assigns physical registers to virtual registers
+while ensuring that interfering registers do not share
+the same physical register.
+
+Two search algorithms are implemented:
+- Naive recursive backtracking
+- Backtracking with Maintaining Arc Consistency (MAC)
+
+The MAC solver uses AC-3 constraint propagation alongside
+Minimum Remaining Values (MRV), Degree, and Least
+Constraining Value (LCV) heuristics.
+
+The project also includes automated benchmarking to compare
+search efficiency across different graph sizes, interference
+densities, and physical register budgets.
+
 ##  How to Run
 
 The program supports two algorithms:
